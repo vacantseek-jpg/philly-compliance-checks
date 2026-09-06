@@ -1,0 +1,23 @@
+# Test fixtures and run artefacts. Regenerable, and some are large.
+__pycache__/
+*.pyc
+
+# Scale-test inputs and outputs (portfolio900.txt is 900 real addresses
+# harvested from public data; scale900*.csv are ~650KB each).
+pf.json
+portfolio900.txt
+scale900*.csv
+scale900*.out
+scale900*.err
+
+# Ad-hoc test inputs written during development
+testaddr.txt
+rtest.txt
+guardtest.txt
+duptest.txt
+hyph.txt
+multi.txt
+
+# Report output
+*.csv
+!examples/*.csv
